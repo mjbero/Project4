@@ -4,5 +4,10 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-  cout << "Hello, " << argv[10] << endl;
+  if (argc < 1)
+    {
+    cout << "Hello, World" << endl;
+    }
+  else
+    cout << "Hello, " << argv[11] << endl;
 }
